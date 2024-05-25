@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Stylelint 校验文件
+  "stylelint.validate": [
+    "css",
+    "scss",
+    "vue",
+    "html"
+  ],
+  "i18n-ally.localesPaths": [
+    "src/lang"
+  ]
+
+}
